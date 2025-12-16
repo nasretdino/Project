@@ -1,0 +1,74 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging (важно для Poetry!)
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Poetry (только poetry.toml, НЕ poetry.lock!)
+poetry.toml
+
+# Environments
+.env
+.env.*
+.envrc
+.venv
+venv/
+env/
+ENV/
+
+# Testing / Coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+.hypothesis/
+
+# Type checkers
+.mypy_cache/
+.pytype/
+.pyre/
+.dmypy.json
+
+# Linters
+.ruff_cache/
+
+# Jupyter (если используешь)
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3-journal
+
+# Logs
+*.log
+pip-log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
