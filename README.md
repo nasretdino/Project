@@ -1,3 +1,7 @@
+# запуск приложения
+uvicorn main:app --reload
+
+# развертывание бд
 docker run --name test-postgres \
   -e POSTGRES_USER=test_user \
   -e POSTGRES_PASSWORD=test_password \
@@ -7,7 +11,7 @@ docker run --name test-postgres \
 
 
 
-
+# создание таблицы
 CREATE TABLE posts (
     id INT PRIMARY KEY,
     title VARCHAR,
