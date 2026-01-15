@@ -60,6 +60,8 @@ htmlcov/
 *.sqlite
 *.sqlite3
 db.sqlite3-journal
+pgdata/
+
 
 # Logs
 *.log
